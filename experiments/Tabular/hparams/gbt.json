@@ -1,0 +1,6 @@
+{
+    "max_depth": [3, 4, 5, 6, 7, 8, 9],
+    "min_samples_leaf": "eval_list(range(1, 30))",
+    "max_iter": "eval_list(range(100, 500, 50))",
+    "learning_rate": "eval_np.logspace(-3, 1, 10)"
+}

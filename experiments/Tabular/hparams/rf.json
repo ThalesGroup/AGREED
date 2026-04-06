@@ -1,0 +1,6 @@
+{
+    "max_depth": "eval_list(range(12, 30, 2)) + [None]",
+    "min_samples_leaf": "eval_list(range(1, 10))",
+    "n_estimators": "eval_list(range(100, 400, 50))",
+    "max_samples": [0.5, 0.6, 0.7, 0.8, 0.9]
+}
