@@ -1,0 +1,15 @@
+*.pyc
+*.pdf
+*.png
+*.bz2
+*.joblib
+*.out
+*.txt
+.venv/*
+*.pt
+*.csv
+.python-version
+notes/*
+
+experiments/MNIST/data/*
+experiments/MNIST/logs/*

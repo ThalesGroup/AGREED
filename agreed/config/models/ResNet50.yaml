@@ -1,0 +1,4 @@
+name: ResNet50
+checkpoints: ${model_path}/${model.name}/${dataset.name}/net.pth
+last_layer_name: fc
+

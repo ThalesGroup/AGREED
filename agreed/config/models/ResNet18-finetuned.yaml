@@ -1,0 +1,3 @@
+name: "ResNet18-finetuned"
+checkpoints: f"/data/glaberge/models/ResNet18-finetuned/{data_config.name}/net.pth"
+last_layer_name: "fc"

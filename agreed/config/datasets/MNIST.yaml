@@ -1,0 +1,6 @@
+name: MNIST
+imsize: [28, 28]
+num_classes: 10
+in_channels: 1
+path: ${data_path}/${dataset.name}
+

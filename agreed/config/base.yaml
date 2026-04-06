@@ -1,0 +1,3 @@
+save_path: /data/glaberge/agreed/MiniImageNet
+data_path: /data/explainnn/datasets
+model_path: /data/glaberge/models

@@ -1,0 +1,6 @@
+name: MiniImageNet
+imsize: [224, 224]
+num_classes: 1000
+in_channels: 3
+path: ${data_path}/${dataset.name}
+

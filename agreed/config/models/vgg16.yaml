@@ -1,0 +1,12 @@
+# defaults:
+#   - model_params: base
+
+name: "VGG16"
+checkpoints: /data/glaberge/models/VGG16/MiniImageNet/model.pt
+layerwidths:
+  - 4096
+  - 4096
+adaptive_pool_size: 7
+dropout: 0.5
+batch_norm: True
+last_layer_name: classifier.6
