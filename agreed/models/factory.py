@@ -48,7 +48,9 @@ class ModelFactory:
             )
 
         if load_weights:
-            model.load_state_dict(torch.load(model_config.checkpoints))
+            model.load_state_dict(
+                torch.load(model_config.checkpoints, weights_only=True)
+            )
 
         # TODO For miniimagenet, we might need to prune the last layer to have 100 classes instead of 1K
         if dataset_config.name.lower() == "miniimagenet":
