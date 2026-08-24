@@ -28,8 +28,8 @@ tqdm = "^4.66.2"
 matplotlib = "^3.8.4"
 seaborn = "^0.13.2"
 opencv-python = "^4.9.0.80"
-torch = { version = "^2.0.0", source = "pytorch-src" }
-torchvision = "^0.17.0"
+torch = { version = "^2.6.0", source = "pytorch-src" }
+torchvision = "^0.21.0"
 simple_parsing = "^0.1.7"
 pyyaml = "^6.0.2"
 pyfd = {git = "https://github.com/gablabc/PyFD.git", tag = "v0.1.0"}
